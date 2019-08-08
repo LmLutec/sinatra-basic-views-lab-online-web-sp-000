@@ -5,8 +5,6 @@ class App < Sinatra::Base
     erb :index 
   end 
 
-  get "/name" do 
-    erb :name 
-  end 
+ 
 
 end
