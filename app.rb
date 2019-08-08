@@ -6,7 +6,7 @@ class App < Sinatra::Base
   end 
 
   get "/name" do 
-    
+    erb :name 
   end 
 
 end
